@@ -29,7 +29,7 @@ grep -Ei "admin|administrator|panel|dashboard|manage|control|api|rest|graphql|v[
 
 ---
 
-## 🌐 3. Find Leaked Credentials
+## 🌐 4. Find Leaked Credentials
 
 ```bash
 https://virustotal.com/vtapi/v2/domain/report?apikey=VIRUSTOTAL-API-KEY&domain=TARGET.com
