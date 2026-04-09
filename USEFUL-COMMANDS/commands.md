@@ -24,7 +24,7 @@ cat allurls.txt | grep -E "\.(xls|xml|xlsx|json|pdf|sql|doc|docx|pptx|txt|zip|ta
 ## 🌐 3. Find Interesting Domains
 
 ```bash
-grep -Ei "admin|administrator|panel|dashboard|manage|control|api|rest|graphql|v[0-9]+|dev|test|testing|stage|staging|qa|uat|preprod|sandbox|login|signin|signup|auth|sso|oauth|cdn|static|media|assets|files|storage|old|backup|bak|legacy|archive|monitor|status|health|metrics|grafana|prometheus|kibana|elastic|db|database|mongo|mysql|redis|postgres|pgadmin|mail|smtp|webmail|mx|imap|pop|exchange|internal|private"
+grep -Ei "admin|administrator|panel|dashboard|manage|control|api|rest|graphql|v[0-9]+|dev|test|testing|stage|staging|qa|uat|preprod|sandbox|login|signin|signup|auth|sso|oauth|account|user|profile|session|token|jwt|verify|reset|password|otp|mfa|2fa|cdn|static|media|assets|files|storage|upload|download|bucket|s3|blob|old|backup|bak|legacy|archive|copy|clone|monitor|monitoring|status|health|metrics|alert|grafana|prometheus|kibana|elastic|logs|debug|trace|tmp|cache|error|dump|aws|gcp|azure|cloud|k8s|docker|jenkins|ci|cd|git|gitlab|github|bitbucket|service|gateway|proxy|edge|backend|billing|payment|invoice|order|cart|wallet|transaction|internal|private"
 ```
 
 ---
